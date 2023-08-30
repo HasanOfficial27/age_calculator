@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>This is the Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="conHasan">
+        <div class="input_wrapper">
+          <input
+            type="date"
+            id="date_input"
+            placeholder="Type Birthday date!"
+          />
+          <button onclick="age_calculate()">Calculate</button>
+        </div>
+        <div class="output_wrapper">
+          <div class="out_div">
+            <p class="out_title">Years</p>
+            <span id="out_year">-</span>
+          </div>
+          <div class="out_div">
+            <p class="out_title">Months</p>
+            <span id="out_month">-</span>
+          </div>
+          <div class="out_div">
+            <p class="out_title">Days</p>
+            <span id="out_day">-</span>
+          </div>
+        </div>
+        <div id="birthday" class="birthday">
+          Upcoming Birthday will show here!
+        </div>
+      </div>
+      <div><!-- Advertise here--></div>
+      <div class="conHasan">
+        <div class="details_wrapper">
+          <div class="dt_title">Your Age is Equivalent:</div>
+          <p>
+            <span class="dt_sp1">In seconds :</span>
+            <span id="details_sec" class="dt_sp2">-</span>
+          </p>
+          <p>
+            <span class="dt_sp1">In Minutes :</span>
+            <span id="details_min" class="dt_sp2">-</span>
+          </p>
+          <p>
+            <span class="dt_sp1">In Hours :</span>
+            <span id="details_hou" class="dt_sp2">-</span>
+          </p>
+          <p>
+            <span class="dt_sp1">In Days :</span>
+            <span id="details_day" class="dt_sp2">-</span>
+          </p>
+          <p>
+            <span class="dt_sp1">In Weeks :</span>
+            <span id="details_wee" class="dt_sp2">-</span>
+          </p>
+          <p>
+            <span class="dt_sp1">In Months :</span>
+            <span id="details_mon" class="dt_sp2">-</span>
+          </p>
+          <p>
+            <span class="dt_sp1">In Years :</span>
+            <span id="details_yea" class="dt_sp2">-</span>
+          </p>
+        </div>
+        <div class="disclaimer">
+          * This calculation may slightly vary from actual minutes and seconds!
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
